@@ -1,0 +1,56 @@
+.project{
+    display: inline;
+    height: 300px;
+    width: 100%;
+    color: white;
+    font-weight: 10;
+    /* justify-content: center; */
+    /* align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+   
+.project3{
+    margin-left: 800px;
+    padding-bottom: 2000px;
+    flex-wrap: wrap;
+   position: absolute;
+   /* margin-bottom: 1000px; */
+   /* margin-top: 100px; */
+
+    
+}
+.project {  
+    margin-top: auto;
+   align-items: center;
+   display: inline-table;
+   
+}
+.project2{
+    width: 1583px;
+    height: 300px;
+    padding-left: 40px;
+    display: inline-flex;
+    padding-top: 130px;
+   
+
+}
+.project3 button{
+    border-radius: 100px;
+    background-color: yellow;
+}
+.project1{
+    padding-top: 10px;
+}
+.project3 button:hover{
+    background-color: aquamarine;
+    transition: 0.3s ease-in;
+}
+.project1 button:hover{
+    background-color: aquamarine;
+    transition: 0.3s ease-in;
+}

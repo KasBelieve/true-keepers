@@ -1,0 +1,47 @@
+.containera{
+    display: inline-block;
+   
+    align-items: left;
+    justify-content: center;
+    padding-left: 30px;
+    margin: 60px; 
+    height: 70px;
+}
+.containera h3{
+    padding-bottom: 20px;
+}
+.containera button{
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:rgb(199, 212, 16) ;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: inherit;
+    height: 20px;
+
+}
+.containera p{
+    font-size: 15px;
+}
+.aboutit{
+display: inline-flex;
+padding-left: 70px;
+padding-top: 80px;
+}
+.aboutit-text{
+  
+    line-height: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.aboutit-text button{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color:wheat ;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style:ridge;
+    height: 25px;
+}
