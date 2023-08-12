@@ -20,7 +20,7 @@ const Project = () => {
                 <p> <button>02</button> Search and choose specific categories of charity <br/>projects you want to give to
                 ( e.g, education, health,<br/> displaced persons e.t.c) and how often you want to give.</p>
               
-                <p> <button>03</button>Give to the charity project and give reports on how your<br/> donation has made an impact</p>
+                <p> <button>03</button>Give to the charity project and give reports on how your<br/> donation has made an impact.</p>
               
             </div> 
         </div>

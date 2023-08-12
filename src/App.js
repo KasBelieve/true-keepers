@@ -21,6 +21,10 @@ function App() {
           <Route path="/about" exact element={<About />} />
           <Route path="/projects" exact element={<Project />} />
           <Route path="/Donate" exact element={<Donation/>} />
+          <Route path="/Login" exact element={<Donation/>} />
+          <Route path="/Donate Now" exact element={<Donation/>} />
+          <Route path="/Sign Up" exact element={<Donation/>} />
+
         </Routes>
         <Footer/>
      </Router>

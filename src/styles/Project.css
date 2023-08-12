@@ -31,9 +31,9 @@
    
 }
 .project2{
-    width: 1583px;
+    width: 1246px;
     height: 300px;
-    padding-left: 40px;
+    padding-left: 20px;
     display: inline-flex;
     padding-top: 130px;
    
@@ -45,6 +45,9 @@
 }
 .project1{
     padding-top: 10px;
+    padding-left: 80px;
+    text-align: left;
+    
 }
 .project3 button:hover{
     background-color: aquamarine;
@@ -54,3 +57,67 @@
     background-color: aquamarine;
     transition: 0.3s ease-in;
 }
+/* Your existing CSS rules */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .project2 {
+      background-image: none; /* Remove background image on small screens */
+    }
+  
+    .project1 {
+      text-align: center; /* Center-align text on small screens */
+      /* padding: 20px; */
+      padding-right: 1000px; 
+    }
+  
+    .project3 {
+      padding: 20px;
+      display: block; 
+    
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .project {
+      display: block;
+      height: auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .project2 {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      display: inline-block;
+      text-align: center;
+    }
+  
+    .project3 {
+      margin-left: 0;
+      padding-bottom: 0;
+      position: static;
+      padding-right: 40px;
+    }
+  
+    .project3 button,
+    .project1 button {
+      border-radius: 100px;
+      background-color: yellow;
+    }
+  
+    .project3 button:hover,
+    .project1 button:hover {
+      background-color: aquamarine;
+      transition: 0.3s ease-in;
+    }
+    .project1 {
+      display: inline-table;
+      text-align: center;
+      justify-content: center;
+      padding-right: 120px;
+
+    }
+  }

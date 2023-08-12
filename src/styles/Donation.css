@@ -1,9 +1,10 @@
+
 .donatecontainer{
     display: inline-block;
     align-items: left;
     justify-content: center;
-    padding-left: 30px;
-    margin: 5px;
+    padding-left: 10px;
+    margin: 0px;
 }
 .donatecontainer h3{
     padding-bottom: 20px;
@@ -90,3 +91,136 @@
 .contact{
     padding-left: 100px;
 }
+.contact img{
+    width: 80%;
+    padding-left: 55px;
+}
+/* Media query for mobile view */
+/* @media (max-width: 768px) {
+    .donation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .donation img {
+      max-width: 100%;
+    }
+  
+    .donation-text {
+      margin-top: 20px;
+      text-align: center;
+    }
+  } */
+
+  /* Your existing CSS rules */
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+    .donatecontainer {
+      display: block; /* Change to block display for better alignment */
+      text-align: center; /* Center-align content on small screens */
+      padding: 10px; /* Adjust padding for better spacing */
+    }
+  
+    .donatecontainer h3 {
+      padding-bottom: 10px; /* Reduce padding for better spacing */
+    }
+  
+    .donatecontainer button {
+      margin-top: 10px; /* Adjust margin for better spacing */
+      font-size: 12px; /* Increase font size for better readability */
+      height: auto; /* Let button height adjust to content */
+    }
+  
+    .donation {
+      justify-content: center; /* Center-align content on small screens */
+      padding: 0; /* Remove padding for better spacing */
+      margin: 0; /* Remove margin for better spacing */
+    }
+  
+    .donation img {
+      height: auto; /* Let image height adjust to content */
+      max-width: 100%; /* Ensure image doesn't overflow parent */
+      padding-top: 10px; /* Adjust padding for better spacing */
+    }
+  
+    .donation-text {
+      display: block; /* Change to block display for better alignment */
+      text-align: center; /* Center-align content on small screens */
+      padding: 10px; /* Adjust padding for better spacing */
+      margin: 0; /* Remove margin for better spacing */
+      line-height: normal; /* Reset line-height to default */
+    }
+  
+    .donation-text button {
+      margin-top: 10px; /* Adjust margin for better spacing */
+      font-size: 12px; /* Increase font size for better readability */
+      height: auto; /* Let button height adjust to content */
+    }
+  
+    .don .donatecontainer {
+      margin-top: 10px; /* Adjust margin for better spacing */
+    }
+  
+    .needstext {
+      margin-left: 0; /* Reset margin for center alignment */
+      padding-top: 20px; /* Adjust padding for better spacing */
+      padding-bottom: 10px; /* Reduce padding for better spacing */
+      text-align: center; /* Center-align content on small screens */
+    }
+  
+    .bverse {
+      margin-left: 0; /* Reset margin for center alignment */
+    }
+  
+    .contact {
+      padding-left: 0; /* Reset padding for better alignment */
+    }
+  
+    .contact img {
+      max-width: 100%; /* Ensure image doesn't overflow parent */
+      padding-left: 40px;
+    }
+
+    
+    .donation {
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .donation img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 0px;
+        width: 350px;
+        padding-left: 30px;
+      }
+    
+      .donation-text {
+        padding: 10px;
+       display: block;
+      }
+    
+      .donation-text h3 {
+        padding-bottom: 10px;
+      }
+    
+      .donation-text button {
+        margin-top: 10px;
+        font-size: 12px;
+        height: auto;
+      }
+    }
+   
+    
+    
+    
+    
+    
+    
+  
+  

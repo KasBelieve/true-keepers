@@ -1,10 +1,11 @@
 .containera{
     display: inline-block;
+    /* grid-template-columns: 1fr 1fr 1fr ; */
    
     align-items: left;
     justify-content: center;
-    padding-left: 30px;
-    margin: 60px; 
+    padding-left: 20px;
+    margin: 50px; 
     height: 70px;
 }
 .containera h3{
@@ -45,3 +46,73 @@ padding-top: 80px;
     border-style:ridge;
     height: 25px;
 }
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .aboutit {
+      flex-direction: column;
+    }
+  
+    .aboutit img {
+      max-width: 100%;
+      margin-right: 20px;
+    }
+    .aboutit-text{
+       margin-right: 20px;
+    }
+  }
+/* Your existing CSS rules */
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+    .containera {
+      text-align: center; /* Center-align content on small screens */
+      margin-bottom: 120px; /* Add some space between sections */
+    }
+  
+    .containera h3 {
+      margin-top: 0px; /* Adjust margin for better spacing */
+      margin-bottom: 0px;
+    }
+  
+    .cards {
+      display: flex;
+      justify-content: center; /* Center-align cards on small screens */
+      flex-wrap: wrap;
+      padding-top: 0px;
+     
+    }
+    .cards button{
+        margin-bottom: 70px;
+    }
+  
+    .card {
+      width: 100%;
+      text-align: center; /* Center-align card content on small screens */
+    }
+  
+    .aboutit {
+      text-align: center; /* Center-align content on small screens */
+    }
+  
+    .aboutit img {
+      max-width: 100%;
+      height: auto;
+      padding-top: 20px;
+    }
+  
+    .aboutit-text {
+      padding: 10px;
+    }
+  
+    .aboutit-text h3 {
+      padding-bottom: 10px;
+    }
+  
+    .aboutit-text button {
+      margin-top: 10px;
+      font-size: 12px;
+      height: auto;
+    }
+  }
+  

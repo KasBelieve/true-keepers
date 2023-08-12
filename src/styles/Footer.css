@@ -1,112 +1,215 @@
-.footer1{
-  
-        position: relative;
-        /* max-width: 100%; */
+.footer1container {
+  position: relative;
+  background-image: url(../assets/truekeeper-assets/textile_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 220px;
 }
 
+.footer1container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  background-color: rgb(10, 38, 98);
+  opacity: 0.9;
+  /* Move the overlay behind the content */
+}
 
- .img-container{
+.content {
+  /* padding: 30px; */
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  text-decoration: none;
+}
+
+.leftside-textfooter {
+  position: absolute;
+  top: 10%;
+  color: white;
+  padding-left: 81px;
+}
+
+.content img {
+  position: absolute;
+}
+
+.leftside-textfooter p {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.list-link {
+  position: absolute;
+  top: 10%;
+  color: white;
+  padding: 20px;
+  margin-left: 50%;
+  text-decoration: none;
+}
+
+.list-link ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: repeat(3, auto); /* Three rows with automatic height */
+  gap: 20px; /* Gap between grid items */
+}
+.list-link li {
+  list-style: none; /* Remove list bullets */
+}
+.list-link a {
+  text-decoration: none;
+  color: #f5f3f3; /* Adjust link color */
+  font-weight: bold;
+}
+
+.list-link p {
+  margin: 0;
+  font-size: 14px; /* Adjust paragraph font size */
+  margin: 12px;
+  
+}
+
+.list2 {
+  display: inline-block;
+  position: absolute;
+  top: 5%;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  
+}
+.list2 li {
+  display: inline-block;
+  padding-top: 145px;
+  color: #ffffff;
+  /* padding-bottom: 40px; */
+  padding-left: 10px;
+  
+}
+.list2 a {
+  /* padding: 55px; */
+  color: #ffffff;
+  text-decoration: none;
+
+  margin-left: 300px;
+}
+
+/* Adjust other styles as needed */
+.list2a {
+  display: inline-flex;
+  position: relative;
+  margin: 5px;
+  margin-top: 12rem;
+  padding-left: 1000px;
+ 
+}
+.list2a a {
+  color: white;
+   text-decoration: none;
+  
+}
+.list2a a:hover {
+  background-color: blue;
+  transition: 0.3s ease-in;
+}
+
+/* Original CSS code */
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    justify-content: center; /* Center-align content */
+  }
+
+  .leftside-textfooter {
+    position: static; /* Change to static position for better mobile display */
+    text-align: center; /* Center-align text */
+    padding-left: 0; /* Remove left padding */
+    padding-top: 20px; /* Add some top padding for spacing */
     position: relative;
-    max-width: 100%;
-    height: 200px;
-    /* background: linear-gradient(0deg, rgba(0, 0, 80, 0.5)), url(../assets//truekeeper-assets/textile_bg.jpg); */
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-image: url(../assets/truekeeper-assets/textile_bg.jpg);
-   
- }
+  }
 
- .img-container::before{
-    content: '';
-    position:absolute;
+  .list-link {
+    position: static; /* Change to static position */
+    margin-left: 70px;
+    margin-right: auto; /* Center-align the list */
+    text-align: center; /* Center-align text */
+    padding: 5px 0; /* Adjust padding */
+    line-height: 5px;
+    
+  }
+
+  .list-link ul {
+    grid-template-columns: 1fr; /* Single column layout for the list items */
+    gap: 10px; /* Reduce gap for mobile */
+    position: absolute;
+  }
+
+  .list2 {
+    display: block;
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px 0; /* Add padding for better spacing */
+    line-height: 3px;
+    text-align: center;
+    padding-left: 45px;
+  }
+
+  .list2 li {
+    padding: 10px 0; /* Adjust padding for list items */
+    text-align: center; /* Center-align text */
+    display: block; /* Change to block for better mobile display */
+  }
+
+  .list2 a {
+    margin-left: auto;
+    margin-right: auto; /* Center-align the link */
+  
+    
+  }
+
+  .list2a {
+    display: flex;
+    justify-content: center; /* Center-align the icons */
+    padding-left: 0; /* Remove left padding */
+    margin-top: 1rem; /* Adjust margin for spacing */
+    margin-top: 275px;
+    padding-right: 20px;
+    
+  }
+
+  .list2a a {
+    color: white;
+  }
+
+  .list2a a:hover {
+    background-color: blue;
+    transition: 0.3s ease-in;
+  }
+  .footer1container {
+    position: relative;
+    background-image: url(../assets/truekeeper-assets/textile_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+  }
+  
+  .footer1container::before {
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color:rgb(10, 38, 98);
+    height: 420px;
+    background-color: rgb(10, 38, 98);
     opacity: 0.9;
- }
-
-
- .content{
-    /* padding: 30px; */
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
- }
- .content img{
-    margin-left: 130PX;
-    margin-top: 65PX;
- }
-
- .leftside-textfooter {
-    position: absolute;
-    top: 30%;
-    color: white;
-    padding-left: 20px;
-    /* padding: 20px; */
- }
- .leftside-textfooter p{
-        font-size: 13PX;
-        padding-bottom: 10PX;
- }
- 
-
- .list-link{
-    position: absolute;
-    top: 5%;
-    color: white;
-    padding: 20px;
-    margin-left: 60%;
-    text-decoration: none;
-    
-    
+    /* Move the overlay behind the content */
+  }
 }
-
-.list-link li{
-    display: inline-block;
-    width: 10em;
-    line-height: 30PX;
-    font-weight: 500;
-    color: #ffffff;
-}
-.list-link li a{
-    color: #ffffff;
-    text-decoration: none;
-}
-.list-link a:hover{
-    background-color: blue;
-    transition: 0.3s ease-in;
-}
-
-.list2{
-    position: absolute;
-    top: 10%;
-    color: white;
-    /* padding: 20px; */
-   padding-right: 20px;
-    text-decoration: none;
-    
-    font-weight: 400;
-    
-}
-
-.list2 li{
-    display: inline-block;
-    width: 40em;
-    padding-top: 145px;
-    color: #ffffff;
-}
-.list2 a{
-    /* text-decoration: none; */
-    /* background-color: aliceblue; */
-    /* padding: 3px; */
-    color: #ffffff;
-    text-decoration: none;
-}
-.list2 a:hover{
-    background-color: blue;
-    transition: 0.3s ease-in;
-}
-
-
-

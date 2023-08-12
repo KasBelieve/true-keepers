@@ -1,48 +1,93 @@
-
-import React, {useState} from "react";
-import logo from "../assets/truekeeper-assets/real-logo.png"
-import{ Link } from 'react-router-dom';
-import ReorderIcon from '@mui/icons-material/Reorder';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { HiOutlineMenu } from "react-icons/hi";
+import navlogo from "../assets/truekeeper-assets/real-logo.png"
 import "../styles/Navbar.css";
-
+import { yellow } from "@mui/material/colors";
 
 const Navbar = () => {
- const [openLinks, setOpenLinks]= useState(false);
- const toggleNavbar =() =>{
- setOpenLinks(!openLinks);
-  };
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
 
   return (
-    <div className='navbar'>
-        <div className='leftside' id={openLinks ? "open" : "close"}>
-          <div className='leftside-text'>
-          <h3> TrueKeepers</h3>
+    <nav className="navbar">
+      <div className="nav-container">
+        <Link exact to="/" className="nav-logo">
+        
+        <h3> TrueKeepers <img src={navlogo} alt="img" /></h3>
           <p> ..closing the needs gap in Africa</p>
-          </div>
-          <img src={logo} alt='img'/>
-          <div className="hiddenLinks">
-          <Link to="/about"> ABOUT</Link>
-          <Link to="/donate">DONATE</Link>
-          <Link to="/projects"> PROJECTS</Link>
-          <Link to="/login"> LOGIN</Link>
-          <Link to="/sign-up"> SIGN UP</Link>
-          <Link to="/donate-now"> DONATE NOW</Link>
-          </div>
-       
-        </div>
-        <div className='rightside'>
-          <Link to="/about"> ABOUT</Link>
-          <Link to="/donate">DONATE</Link>
-          <Link to="/projects"> PROJECTS</Link>
-          <Link to="/login"> LOGIN</Link>
-          <Link to="/sign-up"> SIGN UP</Link>
-          <Link to="/donate-now"> DONATE NOW</Link>
-          <button onClick={toggleNavbar}>
-          <ReorderIcon/>
-          </button>
-          </div>  
-    </div>
-  );
-}
+        </Link>
 
-export default Navbar
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link
+              exact
+              to="/about"
+              activeClassName="active"
+              className="nav-links"
+            >
+             ABOUT
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              exact
+              to="/login"
+              activeClassName="active"
+              className="nav-links"
+            >
+              DONATE
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              exact
+              to="/Projects"
+              activeClassName="active"
+              className="nav-links"
+            >
+              PROJECTS
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              exact
+              to="/"
+              activeClassName="active"
+              className="nav-links"
+            >
+              LOGIN
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              exact
+              to="/"
+              activeClassName="active"
+              className="nav-links"
+            >
+              SIGN UP
+            </Link>
+          </li>
+          <li className="nav-item" style={{ border: '1px solid yellow', borderRadius: 25  }} >
+            <Link
+              exact
+              to="/"
+              activeClassName="active"
+              className="nav-links"
+            >
+              DONATE NOW
+            </Link>
+          </li>
+        </ul>
+        
+        {/* Updated icon element */}
+        <div className="nav-icon" onClick={handleClick}>
+          <HiOutlineMenu className={click ? "menu-icon active" : "menu-icon"} />
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
