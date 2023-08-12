@@ -136,7 +136,7 @@
 
   .list-link {
     position: static; /* Change to static position */
-    margin-left: 70px;
+    margin-left: 120px;
     margin-right: auto; /* Center-align the list */
     text-align: center; /* Center-align text */
     padding: 5px 0; /* Adjust padding */
@@ -157,7 +157,7 @@
     padding: 20px 0; /* Add padding for better spacing */
     line-height: 3px;
     text-align: center;
-    padding-left: 45px;
+    padding-left: 100px;
   }
 
   .list2 li {
@@ -179,7 +179,7 @@
     padding-left: 0; /* Remove left padding */
     margin-top: 1rem; /* Adjust margin for spacing */
     margin-top: 275px;
-    padding-right: 20px;
+    padding-right: 0px;
     
   }
 

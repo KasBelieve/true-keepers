@@ -67,3 +67,44 @@
    padding-left: 40px;
 
 }
+@media (max-width: 767px) {
+    .home {
+        height: auto;
+        /* padding: 20px; */
+        text-align: center;
+        align-items: center;
+        
+       
+    }
+
+    .headercontainer {
+        height:300px ;
+        width: 100%;
+    }
+
+    .headercontainer h1 {
+        font-size: 20px;
+        padding-top: 30px;
+        line-height: 24px;
+    }
+
+    .headercontainer p {
+        padding-left: 0;
+        padding-top: 10px;
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+
+    .headercontainer button {
+        margin-left: 0;
+        width: 30%;
+        margin-top: 10px;
+    
+    }
+
+    .headercontainer h1,
+    .headercontainer p,
+    .headercontainer {
+        padding-left: 0;
+    }
+}
