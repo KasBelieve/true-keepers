@@ -81,11 +81,12 @@
   color: white;
   text-decoration: none;
   font-weight: 400;
+  padding-left: 30px;
   
 }
 .list2 li {
   display: inline-block;
-  padding-top: 145px;
+  padding-top: 165px;
   color: #ffffff;
   /* padding-bottom: 40px; */
   padding-left: 10px;
@@ -117,6 +118,12 @@
   background-color: blue;
   transition: 0.3s ease-in;
 }
+.leftside-textfooter{
+  padding-top: 27px;
+}
+.leftside-textfooter img{
+  width: 15px;
+}
 
 /* Original CSS code */
 
@@ -136,11 +143,12 @@
 
   .list-link {
     position: static; /* Change to static position */
-    margin-left: 120px;
+    margin-left: 80px;
     margin-right: auto; /* Center-align the list */
     text-align: center; /* Center-align text */
     padding: 5px 0; /* Adjust padding */
     line-height: 5px;
+    align-items: center;
     
   }
 
@@ -157,7 +165,7 @@
     padding: 20px 0; /* Add padding for better spacing */
     line-height: 3px;
     text-align: center;
-    padding-left: 100px;
+    padding-left: 50px;
   }
 
   .list2 li {
@@ -213,3 +221,36 @@
     /* Move the overlay behind the content */
   }
 }
+/* Your existing styles */
+
+/* Media query for medium devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .list-link {
+    top: 15%; /* Adjust top position */
+    padding: 15px; /* Adjust padding */
+    margin-left: 900px; /* Adjust margin */
+  }
+
+  /* .list-link ul {
+    grid-template-columns: repeat(2, 1fr); 
+  } */
+
+  .list-link p {
+    font-size: 12px; /* Adjust paragraph font size for medium devices */
+  }
+
+  .list2 {
+    top: 10%; /* Adjust top position */
+    padding-left: 150px; /* Adjust padding */
+  }
+
+  .list2 li {
+    padding-top: 140px; /* Adjust padding-top */
+    padding-left: 5px; /* Adjust padding-left */
+  }
+
+  .list2 a {
+    margin-left: 200px; /* Adjust margin-left */
+  }
+}
+
