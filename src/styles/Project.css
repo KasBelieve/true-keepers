@@ -1,7 +1,7 @@
 .project{
     display: inline;
     height: 300px;
-    width: 100%;
+    width: 100px;
     color: white;
     font-weight: 10;
     /* justify-content: center; */
@@ -16,7 +16,7 @@
    
 .project3{
     margin-left: 800px;
-    padding-bottom: 2000px;
+    padding-bottom: 190px;
     flex-wrap: wrap;
    position: absolute;
    /* margin-bottom: 1000px; */
@@ -31,7 +31,7 @@
    
 }
 .project2{
-    width: 1246px;
+    width: 1419px;
     height: 300px;
     padding-left: 20px;
     display: inline-flex;
@@ -63,6 +63,7 @@
 @media (max-width: 768px) {
     .project2 {
       background-image: none; /* Remove background image on small screens */
+      width: 200px;
     }
   
     .project1 {
@@ -88,7 +89,7 @@
     }
   
     .project2 {
-      width: 100%;
+      width: 399px;
       height: auto;
       padding: 20px;
       display: inline-block;
@@ -117,7 +118,8 @@
       display: inline-table;
       text-align: center;
       justify-content: center;
-      padding-right: 120px;
+      padding-right: 75px;
+
 
     }
   }

@@ -46,9 +46,9 @@ const About = () => {
 
       </section>
       <section>
-        <div className="aboutit">
+        <div className="aaboutit">
           <img src={aboutimage} alt='img'/>
-          <div className="aboutit-text">
+          <div className="aaboutit-text">
               <h3> About Us</h3>
               <p> Truekeepers is a non-profit organization that supports local NGOs in Nigeria with <br/>access to funding,
               resources and visibility to successfully implement and scale their<br/> projects in the communities they operate. 

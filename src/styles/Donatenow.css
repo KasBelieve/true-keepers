@@ -1,0 +1,621 @@
+.home{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: 10;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+   
+}
+
+.headercontainer{
+    /* width: 500vh;
+    height: 400px; */
+  
+    
+    
+}
+.headercontainer h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    height: 60px;
+    font-weight: 100;
+    padding-top: 70px;
+    word-spacing: 10px;
+    line-height: 30px;
+
+   
+
+}
+
+
+.headercontainer h1,
+.headercontainer {
+   padding-left: 100px;
+   padding-top: 70px;
+
+}
+.aboutit{
+ display: inline-flex;
+  padding-left: 90px;
+  padding-top: 80px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.aboutit img{
+    height: 400px;
+}
+.aboutit-text{
+    line-height: 30px;
+    padding-left: 70px;
+    padding-top: 40px;
+    color: black;
+    margin-left: 70px;
+}
+.aboutit button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 130px;
+  
+}
+.aboutit button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.vision{
+   display: inline-flex;
+   margin-left: 0;
+   padding-left: 540px;
+   padding-top: 30px;
+    
+}
+.mission{
+    color: black;
+    display: inline-block;
+    align-items: left;
+    justify-content: center;
+    padding: 50px;
+     
+}
+.founders1{
+  display: inline-flex;
+   padding-left: 90px;
+   padding-top: 2px;
+   margin-left: 150px;
+   margin-top: 20px;
+ }
+
+ .founders-text{
+     line-height: 30px;
+     padding-left: 70px;
+     padding-top: 40px;
+     color: black;
+     margin-left: 50px;
+ }
+ .founders h3{
+  padding-left: 10px;
+  padding-top: 40px;
+  color: black;
+  margin-left: 50px;
+ }
+.founders1{
+    margin-left: 100px;
+    
+}
+.founders1 button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 130px;
+  /* margin-left: 100px;
+  margin-top: 15px; */
+}
+.founders1 button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.founders{
+  margin-left: 100px;
+}
+.founders-text{
+  padding-right: 40px;
+}
+.founders2{
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 40px;
+    
+}
+.founders2 button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 130px;
+
+}
+ .founders2 button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+
+.founders2 img{
+    margin-left: 300px;
+}
+.founders4 h3{
+    /* margin-right: 100px;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-top: 30px; */
+
+}
+.intext{
+  color: black;
+  margin-left: 35px;
+  margin-top: 50px;
+  display: inline-block;
+  word-spacing: 6px;
+  line-height: 30px;
+  text-align: center;
+}
+.founders2 h3{
+    padding-left: 250px;
+  
+  
+}
+.vision p{
+  line-height: 30px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+.founders2-text{
+    padding-left: 700px;
+    line-height: 30px;
+}
+.founder3{
+  padding-top: 50px;
+  margin: 10px;
+}
+.founder3 h3{
+    word-spacing: 6px;
+    /* margin-top: 30px; */
+    /* display: inline; */
+    /* padding-top: 2px; */
+    position: absolute;
+    margin-left: 5px;
+}
+.pix{
+   /* display: inline-block;  */
+   margin-left: 110px;
+   padding-top: 20px;
+   display: inline-block;
+   text-align: center;
+}
+.pix img{
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+    
+}
+
+/* YourComponent.css */
+
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #007bff; /* Change the border color on focus */
+  }
+
+ 
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 650px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .login-container input {
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  
+ .login-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 190px;
+    margin-top: 30px;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+
+  .guygirl{
+    display: inline-flex;
+    margin-left: 50px;
+  }
+  .ife{
+    margin-top: 250px;
+    
+  }
+  .ife li{
+    list-style-type: none;
+  }
+  /* .guygirl h4, p{
+    margin-top: 30px; */
+    /* display: inline-flex; */
+    
+  /* } */
+  
+@media (max-width: 768px) {
+    .home {
+        height: auto;
+        padding: 22px;
+        text-align: center;
+        align-items: center;
+        width: 10px;
+        margin-left: 50.5px;
+        justify-content: center;
+    
+        
+       
+    }
+
+    .ife{
+      margin-top: 0;
+      margin-left: 290px;
+    }
+  
+    .headercontainer {
+        height:300px ;
+        width: 100%;
+        /* height: 10px; */
+        background-size: cover;
+        /* padding: auto; */
+        width: 958px;
+        /* align-content:flex-start; */
+        align-self: center;
+        margin-left: 60px;
+        justify-content: center;
+        
+    }
+
+    .headercontainer h1 {
+        font-size: 20px;
+        padding-top: 30px;
+        line-height: 24px;
+        margin-right: 40px;
+      
+    }
+
+    .headercontainer p {
+        padding-left: 0;
+        padding-top: 10px;
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+
+    .headercontainer button {
+        margin-left: 0;
+        width: 30%;
+        margin-top: 10px;
+    
+    }
+
+    .headercontainer h1,
+    .headercontainer p,
+    .headercontainer {
+        padding-left: 0;
+    }
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 380px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+      }
+    .login-container button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 100px;
+        margin-left: 100px;
+        margin-top: 15px;
+      }
+      
+
+
+
+   .founders1{
+    /* display: inline-flex; */
+    padding-top: 0px;
+    margin-bottom: 20px;
+    
+    }
+    .founders{
+        color: black;
+        /* padding-top: 0px; */
+        
+    }
+    .founders-text{
+      
+        line-height: 30px;
+        padding-top: 10px;
+        color: black;
+        margin-left: 170px;
+    }
+    .founders button{
+       
+
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 130px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+    .guygirl{
+      display: inline;
+      margin: 0px;
+      margin-bottom: 0px;
+      align-items: center;
+      justify-content: center;
+    }
+    .guygirl h4, p{
+    /* margin-left: 300px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .pix{
+      display: inline-flex;
+      justify-content: center;
+      max-width: 100%;
+      margin-bottom: 0px;
+     
+    }
+
+    /* Styles for the scroll container */
+    .scroll-container {
+   overflow-x: auto; /* Enable horizontal scrolling */
+     white-space: nowrap; /* Prevent images from wrapping to the next line */
+     width: 100%; /* Adjust the width as needed */
+     margin-left: 80px;
+     padding: 50%;
+     padding-top: 8%;
+     padding-bottom: 0;
+}
+
+/* Base styles for images */
+.pix img {
+  max-width: 100%; /* Make images responsive within their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+  }
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .aboutit {
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding-top: 8px;
+      text-align: center; 
+      }
+    
+      .aboutit img {
+        max-width: 200%;
+        height: 400px;
+        /* padding-top: 1px; */
+        background-size: cover;
+        /* padding-left: 100px; */
+        padding: auto;
+        width: 450px;
+        padding-left: 150px;
+      }
+    
+      .aboutit-text {
+        /* padding: 10px; */
+        /* padding-left: 100px; */
+        text-align: center;
+        width: 430px;
+        
+       
+      }
+    
+      .aboutit-text h3 {
+        padding-bottom: 10px;
+      }
+    
+      .aboutit-text button {
+       
+        
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 15px;
+      }
+      .aboutit-text{
+  
+        line-height: 30px;
+        padding-top: 20px;
+        
+    }
+  
+   
+    
+    .home .headercontainer{
+        height: 10px;
+        background-size: cover;
+        padding: auto;
+        width: 858px;
+        
+        
+     }
+     .headercontainer h1{
+        padding-top: 80px;
+        padding-left: 380px;
+      
+     }
+     .founders4 h3{
+       
+        word-spacing: 6px;
+        margin-left: 75px;
+     }
+    
+  
+     .vision{
+        
+        align-items: center;
+        display: inline-flex; 
+        flex-wrap: wrap;
+        margin-right: 150px;
+        margin-bottom: 40px;
+     }
+    .mission{
+        width: 200px;
+        padding: 0;
+        align-items: center;
+        /* margin-left: 150px; */
+        
+       
+     }
+     
+
+     .founders1{
+        
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-bottom: 0px; */
+        align-content: center;
+    
+        }
+    .founders h3{
+            color: black;
+           justify-content: center;
+           display: inline-block;
+           align-items: center;
+           padding-left: 40px;
+               
+        }
+     .founders-text{
+          
+            padding-top: 5px;
+            color: black;
+            display: inline;
+            line-height: 30px;
+            width: 430px;
+         }
+    
+        .founders2{
+            margin-left: 70px;
+            display: inline-block;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+           
+        }
+
+        .founders2-text {
+            flex-direction: column;
+            text-align: center;
+            margin-top: 70px;
+            color: black;
+            line-height: 30px;
+            /* padding: 10px; */
+            width: 430px;
+            padding-left: 180px;
+            height: 300px;
+            margin-left: 150px;
+            justify-content: center;
+            position: relative;
+         
+         }
+
+         .founder3 h3{
+           margin-left: 170px;
+           padding-top: 10px;
+           /* position: absolute; */
+            display: block;
+           margin-bottom: 40px;
+           
+         }
+
+         .founders2-text button{
+            
+            
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 130px;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+          } 
+       .intext{
+        width: 500px;
+        margin-left: 375px;
+       }
+
+
+      
+
+
+  }
+
+

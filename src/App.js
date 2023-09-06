@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Project from './pages/Projects/Project';
 import Footer from './Components/Footer';
 import Donation from './pages/Donation';
+import DonateNow from './pages/Donatenow';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -22,8 +23,8 @@ function App() {
           <Route path="/projects" exact element={<Project />} />
           <Route path="/Donate" exact element={<Donation/>} />
           <Route path="/Login" exact element={<Donation/>} />
-          <Route path="/Donate Now" exact element={<Donation/>} />
-          <Route path="/Sign Up" exact element={<Donation/>} />
+          <Route path="/DonateNow" exact element={<DonateNow/>} />
+          <Route path="/SignUp" exact element={<Donation/>} />
 
         </Routes>
         <Footer/>

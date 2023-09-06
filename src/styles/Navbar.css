@@ -34,22 +34,39 @@
   list-style: none;
   text-align: center;
   margin-right: 2rem;
+
+ 
 }
+.nav-menu li{
+  /* margin-left: 30px; */
+}
+
+
 
 .nav-links {
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  border-bottom: 3px solid transparent;
+  border-bottom: 0px solid transparent;
+ 
 }
 .fa-code {
   margin-left: 1rem;
 }
 
 .nav-item {
-  line-height: 40px;
+  /* line-height: 40px; */
   margin-right: 1rem;
+  padding-top: 25px;
+  border-width: 20px;
+  
+}
+.nav-item link{
+  margin-left: 50px;
+}
+.nav-item d{
+  height: 25px;
 }
 
 .nav-item:after {
@@ -69,6 +86,7 @@
 .nav-item .active {
   color: white;
   border: 1px solid white;
+  
 }
 
 .nav-icon {
@@ -88,13 +106,18 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    border-top: 1pxsolid #fff;
+    width: 200px;
+    border-top: 0px solid #fff;
+    border-radius: 25px;
     position: absolute;
-    top: 80px;
-    left: -110%;
-    opacity: 1;
+    top: 63px;
+    /* left: -0%; */
+    opacity: -40;
     transition: all 0.5s ease;
+    border: 1px;
+    margin-left: 155px;
+    
+    
    
   }
 
@@ -104,17 +127,25 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    /* padding-right: 300px; */
    
   }
   .nav-item .active {
     color: white;
     border: none;
     
+    
   }
+ 
   .nav-links {
-    padding: 1.5rem;
-    width: 100%;
-    display: table;
+    padding:2px;
+    width: 200px;
+    /* display: table; */
+    /* border-width: 0px; */
+    padding-right: 37px;
+    box-sizing: border-box;
+    border: 1px;
+    display: inline-block;
     
   }
 
@@ -127,6 +158,13 @@
     font-size: 1.8rem;
     cursor: pointer;
     color: white;
+  }
+  .nav-links .d{
+    border-left: 1px;
+  }
+
+  .nav-container P{
+    padding-right: 270px;
   }
 
 }
